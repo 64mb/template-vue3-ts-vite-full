@@ -1,0 +1,11 @@
+{
+  "date": {
+    "last_day": "За день",
+    "last_month": "Последний месяц",
+    "last_three_days": "За 3 дня",
+    "last_three_month": "Последние 3 месяца",
+    "last_week": "Последняя неделя",
+    "not_defined": "Не определена"
+  },
+  "lang": "ru"
+}

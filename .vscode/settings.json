@@ -1,0 +1,35 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.validate": [
+    "vue",
+    "typescript",
+    "json",
+    "jsonc"
+  ],
+  "material-icon-theme.folders.associations": {
+    "store": "database"
+  },
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "vue"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": {
+    "last_day": "Last day",
+    "last_month": "Last month",
+    "last_three_days": "Last three days",
+    "last_three_month": "Last three month",
+    "last_week": "Last week",
+    "not_defined": "Not defined"
+  },
+  "lang": "en"
+}

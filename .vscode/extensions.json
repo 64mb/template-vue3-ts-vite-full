@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint"
+  ],
+  "extensions.disabled": [
+    "vscode.typescript-language-features"
+  ],
+  "extensions.enabled": [
+    "Vue.volar",
+    "Vue.vscode-typescript-vue-plugin"
+  ]
+}

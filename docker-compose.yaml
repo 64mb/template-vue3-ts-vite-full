@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: ./docker/development.dockerfile
+    restart: no
+    tty: true
+    image: frontend:dev
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - node_modules:/app/node_modules
+      - .:/app
+    ports:
+      - 5173:5173
+
+volumes:
+  node_modules:
