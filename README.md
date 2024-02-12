@@ -16,7 +16,7 @@
 
 - Day.js - Date utility library: [link](https://day.js.org/)
 
-- Axios - Promise based HTTP client: [link](https://axios-http.com/)
+- Ofetch - A better simple fetch API: [link](https://github.com/unjs/ofetch)
 
 ### 🧰 Predefined tools
 
