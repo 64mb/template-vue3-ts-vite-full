@@ -22,7 +22,7 @@ RUN bun run build
 # production-stage
 FROM nginx:1.25.3-alpine-slim as production-stage
 
-RUN mkdir /app
+WORKDIR /app
 
 COPY --from=build-stage-build /app/dist /app
 
@@ -30,6 +30,6 @@ COPY ./docker/nginx.conf /etc/nginx/nginx.conf
 
 RUN rm /etc/nginx/conf.d/default.conf
 
-EXPOSE 80
+EXPOSE 80/tcp
 
 CMD ["nginx", "-g", "daemon off;"]
