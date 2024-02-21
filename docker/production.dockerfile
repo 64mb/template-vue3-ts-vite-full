@@ -1,4 +1,4 @@
-# build stage
+# build-stage
 FROM oven/bun:1.0.26-slim as build-stage
 
 WORKDIR /app
