@@ -20,9 +20,9 @@
 
 ### 🧰 Predefined tools
 
-- Prettier - A mighty CSS linter: [link](https://prettier.io/)
+- Prettier - Opinionated code formatter: [link](https://prettier.io/)
 
-- Eslint - A mighty CSS linter: [link](https://eslint.org/)
+- Eslint - The pluggable linting utility: [link](https://eslint.org/)
 
 - Stylelint - A mighty CSS linter: [link](https://stylelint.io/)
 
